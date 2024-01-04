@@ -17,7 +17,9 @@
       "entryFile": "src/main",
       "sourceRoot": "./",
       "compilerOptions": {
-        "tsConfigPath": "apps/apigateway/tsconfig.app.json"
+        "tsConfigPath": "apps/apigateway/tsconfig.app.json",
+        "assets": ["proto/*.proto"],
+        "watchAssets": true
       }
     },
     "auth": {

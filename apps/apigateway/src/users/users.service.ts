@@ -45,9 +45,9 @@ export class UsersService implements OnModuleInit {
     const users$ = new ReplaySubject<PaginationDto>();
 
     users$.next({ page: 0, skip: 25 });
-    users$.next({ page: 0, skip: 25 });
-    users$.next({ page: 0, skip: 25 });
-    users$.next({ page: 0, skip: 25 });
+    users$.next({ page: 1, skip: 25 });
+    users$.next({ page: 2, skip: 25 });
+    users$.next({ page: 3, skip: 25 });
 
     users$.complete();
 
